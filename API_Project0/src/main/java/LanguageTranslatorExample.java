@@ -25,5 +25,6 @@ public class LanguageTranslatorExample {
         TranslationResult translationResult = service.translate(translateOptions).execute().getResult();
 
         System.out.println(translationResult);
+        //comment
     }
 }
